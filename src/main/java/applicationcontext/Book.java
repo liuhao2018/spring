@@ -1,4 +1,4 @@
-package applicatiocontext;
+package applicationcontext;
 
 public class Book {
     private String name;

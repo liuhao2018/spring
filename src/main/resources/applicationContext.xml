@@ -10,7 +10,7 @@
     </bean>
 
 
-    <bean id="book" class="applicatiocontext.Book">
+    <bean id="book" class="applicationcontext.Book">
         <property name="name" value="Spring In Action"/>
         <property name="describe" value="Study Spring"/>
         <property name="content" value="Spring..."/>
