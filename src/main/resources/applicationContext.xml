@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="person" class="beanfactory.Person">
+        <property name="name" value="roy"/>
+        <property name="sex" value="0"/>
+        <property name="age" value="17"/>
+    </bean>
+
+
+    <bean id="book" class="applicatiocontext.Book">
+        <property name="name" value="Spring In Action"/>
+        <property name="describe" value="Study Spring"/>
+        <property name="content" value="Spring..."/>
+    </bean>
+
+    <import resource="classpath:hello.xml"/>
+
+</beans>
